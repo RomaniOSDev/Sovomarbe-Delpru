@@ -7,7 +7,7 @@ workflows:
         vars:
           XCODE_WORKSPACE: "Sovomarbe Delpru.xcworkspace"
           XCODE_SCHEME: "Sovomarbe Delpru"
-          BUNDLE_ID: "com.rog.42bn2k3ml1w"
+          BUNDLE_ID: "com.rup.qw2wq3q45"
           APP_STORE_APP_ID: 6756367614
         xcode: latest
         cocoapods: 1.14.2

@@ -3,33 +3,63 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 60;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		748177EA2F5B1EB8008BA5CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 748177D42F5B1EB8008BA5CC /* Assets.xcassets */; };
+		748177EC2F5B1EB8008BA5CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 748177DC2F5B1EB8008BA5CC /* LaunchScreen.storyboard */; };
+		748177ED2F5B1EB8008BA5CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 748177DF2F5B1EB8008BA5CC /* Main.storyboard */; };
+		748177EE2F5B1EB8008BA5CC /* AchievementsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748177D02F5B1EB8008BA5CC /* AchievementsTabView.swift */; };
+		748177EF2F5B1EB8008BA5CC /* ActivitiesTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748177D12F5B1EB8008BA5CC /* ActivitiesTabView.swift */; };
+		748177F02F5B1EB8008BA5CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748177D22F5B1EB8008BA5CC /* AppDelegate.swift */; };
+		748177F12F5B1EB8008BA5CC /* AppStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748177D32F5B1EB8008BA5CC /* AppStorage.swift */; };
+		748177F22F5B1EB8008BA5CC /* BounceBalanceGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748177D52F5B1EB8008BA5CC /* BounceBalanceGameView.swift */; };
+		748177F32F5B1EB8008BA5CC /* BounceBalanceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748177D62F5B1EB8008BA5CC /* BounceBalanceViewModel.swift */; };
+		748177F42F5B1EB8008BA5CC /* Color+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748177D72F5B1EB8008BA5CC /* Color+App.swift */; };
+		748177F52F5B1EB8008BA5CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748177D82F5B1EB8008BA5CC /* ContentView.swift */; };
+		748177F62F5B1EB8008BA5CC /* HomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748177D92F5B1EB8008BA5CC /* HomeTabView.swift */; };
+		748177F72F5B1EB8008BA5CC /* LevelResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748177DD2F5B1EB8008BA5CC /* LevelResultView.swift */; };
+		748177F82F5B1EB8008BA5CC /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748177E02F5B1EB8008BA5CC /* MainTabView.swift */; };
+		748177F92F5B1EB8008BA5CC /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748177E12F5B1EB8008BA5CC /* OnboardingView.swift */; };
+		748177FA2F5B1EB8008BA5CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748177E22F5B1EB8008BA5CC /* SceneDelegate.swift */; };
+		748177FB2F5B1EB8008BA5CC /* SettingsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748177E32F5B1EB8008BA5CC /* SettingsTabView.swift */; };
+		748177FC2F5B1EB8008BA5CC /* SlidePuzzleGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748177E42F5B1EB8008BA5CC /* SlidePuzzleGameView.swift */; };
+		748177FD2F5B1EB8008BA5CC /* SlidePuzzleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748177E52F5B1EB8008BA5CC /* SlidePuzzleViewModel.swift */; };
+		748177FE2F5B1EB8008BA5CC /* TapMatchGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748177E62F5B1EB8008BA5CC /* TapMatchGameView.swift */; };
+		748177FF2F5B1EB8008BA5CC /* TapMatchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748177E72F5B1EB8008BA5CC /* TapMatchViewModel.swift */; };
+		748178002F5B1EB8008BA5CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748177E82F5B1EB8008BA5CC /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		1374B8BCFEE5A53CCCAE39AD /* Pods_Sovomarbe_Delpru.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sovomarbe_Delpru.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		418D969D0CB588507AAA619A /* Pods-Sovomarbe Delpru.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sovomarbe Delpru.release.xcconfig"; path = "Target Support Files/Pods-Sovomarbe Delpru/Pods-Sovomarbe Delpru.release.xcconfig"; sourceTree = "<group>"; };
+		4A901C3D07537D51F963C6BC /* Pods-Sovomarbe Delpru.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sovomarbe Delpru.debug.xcconfig"; path = "Target Support Files/Pods-Sovomarbe Delpru/Pods-Sovomarbe Delpru.debug.xcconfig"; sourceTree = "<group>"; };
 		7481761F2F5A0F0B008BA5CC /* Sovomarbe Delpru.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sovomarbe Delpru.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		748177D02F5B1EB8008BA5CC /* AchievementsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsTabView.swift; sourceTree = "<group>"; };
+		748177D12F5B1EB8008BA5CC /* ActivitiesTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesTabView.swift; sourceTree = "<group>"; };
+		748177D22F5B1EB8008BA5CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		748177D32F5B1EB8008BA5CC /* AppStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage.swift; sourceTree = "<group>"; };
+		748177D42F5B1EB8008BA5CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		748177D52F5B1EB8008BA5CC /* BounceBalanceGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceBalanceGameView.swift; sourceTree = "<group>"; };
+		748177D62F5B1EB8008BA5CC /* BounceBalanceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceBalanceViewModel.swift; sourceTree = "<group>"; };
+		748177D72F5B1EB8008BA5CC /* Color+App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+App.swift"; sourceTree = "<group>"; };
+		748177D82F5B1EB8008BA5CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		748177D92F5B1EB8008BA5CC /* HomeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabView.swift; sourceTree = "<group>"; };
+		748177DA2F5B1EB8008BA5CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		748177DB2F5B1EB8008BA5CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		748177DD2F5B1EB8008BA5CC /* LevelResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelResultView.swift; sourceTree = "<group>"; };
+		748177DE2F5B1EB8008BA5CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		748177E02F5B1EB8008BA5CC /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		748177E12F5B1EB8008BA5CC /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		748177E22F5B1EB8008BA5CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		748177E32F5B1EB8008BA5CC /* SettingsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTabView.swift; sourceTree = "<group>"; };
+		748177E42F5B1EB8008BA5CC /* SlidePuzzleGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidePuzzleGameView.swift; sourceTree = "<group>"; };
+		748177E52F5B1EB8008BA5CC /* SlidePuzzleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidePuzzleViewModel.swift; sourceTree = "<group>"; };
+		748177E62F5B1EB8008BA5CC /* TapMatchGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapMatchGameView.swift; sourceTree = "<group>"; };
+		748177E72F5B1EB8008BA5CC /* TapMatchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapMatchViewModel.swift; sourceTree = "<group>"; };
+		748177E82F5B1EB8008BA5CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		748176312F5A0F0C008BA5CC /* Exceptions for "Sovomarbe Delpru" folder in "Sovomarbe Delpru" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 7481761E2F5A0F0B008BA5CC /* Sovomarbe Delpru */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		748176212F5A0F0B008BA5CC /* Sovomarbe Delpru */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				748176312F5A0F0C008BA5CC /* Exceptions for "Sovomarbe Delpru" folder in "Sovomarbe Delpru" target */,
-			);
-			path = "Sovomarbe Delpru";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		7481761C2F5A0F0B008BA5CC /* Frameworks */ = {
@@ -45,8 +75,10 @@
 		748176162F5A0F0B008BA5CC = {
 			isa = PBXGroup;
 			children = (
-				748176212F5A0F0B008BA5CC /* Sovomarbe Delpru */,
+				748177E92F5B1EB8008BA5CC /* Sovomarbe Delpru */,
 				748176202F5A0F0B008BA5CC /* Products */,
+				EE91EA9C8C2F3250B1900866 /* Pods */,
+				A64C0EFE6B38B4F39E038909 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +90,53 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		748177E92F5B1EB8008BA5CC /* Sovomarbe Delpru */ = {
+			isa = PBXGroup;
+			children = (
+				748177D02F5B1EB8008BA5CC /* AchievementsTabView.swift */,
+				748177D12F5B1EB8008BA5CC /* ActivitiesTabView.swift */,
+				748177D22F5B1EB8008BA5CC /* AppDelegate.swift */,
+				748177D32F5B1EB8008BA5CC /* AppStorage.swift */,
+				748177D42F5B1EB8008BA5CC /* Assets.xcassets */,
+				748177D52F5B1EB8008BA5CC /* BounceBalanceGameView.swift */,
+				748177D62F5B1EB8008BA5CC /* BounceBalanceViewModel.swift */,
+				748177D72F5B1EB8008BA5CC /* Color+App.swift */,
+				748177D82F5B1EB8008BA5CC /* ContentView.swift */,
+				748177D92F5B1EB8008BA5CC /* HomeTabView.swift */,
+				748177DA2F5B1EB8008BA5CC /* Info.plist */,
+				748177DC2F5B1EB8008BA5CC /* LaunchScreen.storyboard */,
+				748177DD2F5B1EB8008BA5CC /* LevelResultView.swift */,
+				748177DF2F5B1EB8008BA5CC /* Main.storyboard */,
+				748177E02F5B1EB8008BA5CC /* MainTabView.swift */,
+				748177E12F5B1EB8008BA5CC /* OnboardingView.swift */,
+				748177E22F5B1EB8008BA5CC /* SceneDelegate.swift */,
+				748177E32F5B1EB8008BA5CC /* SettingsTabView.swift */,
+				748177E42F5B1EB8008BA5CC /* SlidePuzzleGameView.swift */,
+				748177E52F5B1EB8008BA5CC /* SlidePuzzleViewModel.swift */,
+				748177E62F5B1EB8008BA5CC /* TapMatchGameView.swift */,
+				748177E72F5B1EB8008BA5CC /* TapMatchViewModel.swift */,
+				748177E82F5B1EB8008BA5CC /* ViewController.swift */,
+			);
+			path = "Sovomarbe Delpru";
+			sourceTree = "<group>";
+		};
+		A64C0EFE6B38B4F39E038909 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1374B8BCFEE5A53CCCAE39AD /* Pods_Sovomarbe_Delpru.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE91EA9C8C2F3250B1900866 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A901C3D07537D51F963C6BC /* Pods-Sovomarbe Delpru.debug.xcconfig */,
+				418D969D0CB588507AAA619A /* Pods-Sovomarbe Delpru.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,6 +144,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 748176322F5A0F0C008BA5CC /* Build configuration list for PBXNativeTarget "Sovomarbe Delpru" */;
 			buildPhases = (
+				4473A447695E347E9AF9043D /* [CP] Check Pods Manifest.lock */,
 				7481761B2F5A0F0B008BA5CC /* Sources */,
 				7481761C2F5A0F0B008BA5CC /* Frameworks */,
 				7481761D2F5A0F0B008BA5CC /* Resources */,
@@ -73,12 +153,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				748176212F5A0F0B008BA5CC /* Sovomarbe Delpru */,
-			);
 			name = "Sovomarbe Delpru";
-			packageProductDependencies = (
-			);
 			productName = "Sovomarbe Delpru";
 			productReference = 7481761F2F5A0F0B008BA5CC /* Sovomarbe Delpru.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +174,7 @@
 				};
 			};
 			buildConfigurationList = 7481761A2F5A0F0B008BA5CC /* Build configuration list for PBXProject "Sovomarbe Delpru" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,8 +182,6 @@
 				Base,
 			);
 			mainGroup = 748176162F5A0F0B008BA5CC;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 748176202F5A0F0B008BA5CC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,24 +196,91 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				748177EA2F5B1EB8008BA5CC /* Assets.xcassets in Resources */,
+				748177EC2F5B1EB8008BA5CC /* LaunchScreen.storyboard in Resources */,
+				748177ED2F5B1EB8008BA5CC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4473A447695E347E9AF9043D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sovomarbe Delpru-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7481761B2F5A0F0B008BA5CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				748177EE2F5B1EB8008BA5CC /* AchievementsTabView.swift in Sources */,
+				748177EF2F5B1EB8008BA5CC /* ActivitiesTabView.swift in Sources */,
+				748177F02F5B1EB8008BA5CC /* AppDelegate.swift in Sources */,
+				748177F12F5B1EB8008BA5CC /* AppStorage.swift in Sources */,
+				748177F22F5B1EB8008BA5CC /* BounceBalanceGameView.swift in Sources */,
+				748177F32F5B1EB8008BA5CC /* BounceBalanceViewModel.swift in Sources */,
+				748177F42F5B1EB8008BA5CC /* Color+App.swift in Sources */,
+				748177F52F5B1EB8008BA5CC /* ContentView.swift in Sources */,
+				748177F62F5B1EB8008BA5CC /* HomeTabView.swift in Sources */,
+				748177F72F5B1EB8008BA5CC /* LevelResultView.swift in Sources */,
+				748177F82F5B1EB8008BA5CC /* MainTabView.swift in Sources */,
+				748177F92F5B1EB8008BA5CC /* OnboardingView.swift in Sources */,
+				748177FA2F5B1EB8008BA5CC /* SceneDelegate.swift in Sources */,
+				748177FB2F5B1EB8008BA5CC /* SettingsTabView.swift in Sources */,
+				748177FC2F5B1EB8008BA5CC /* SlidePuzzleGameView.swift in Sources */,
+				748177FD2F5B1EB8008BA5CC /* SlidePuzzleViewModel.swift in Sources */,
+				748177FE2F5B1EB8008BA5CC /* TapMatchGameView.swift in Sources */,
+				748177FF2F5B1EB8008BA5CC /* TapMatchViewModel.swift in Sources */,
+				748178002F5B1EB8008BA5CC /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		748177DC2F5B1EB8008BA5CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				748177DB2F5B1EB8008BA5CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		748177DF2F5B1EB8008BA5CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				748177DE2F5B1EB8008BA5CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		748176332F5A0F0C008BA5CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A901C3D07537D51F963C6BC /* Pods-Sovomarbe Delpru.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -147,30 +288,38 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Sovomarbe Delpru/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Sovomarbe Delpru";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.Sovomarbe-Delpru";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rup.pl7n5kbl00m;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		748176342F5A0F0C008BA5CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 418D969D0CB588507AAA619A /* Pods-Sovomarbe Delpru.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -178,25 +327,32 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Sovomarbe Delpru/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Sovomarbe Delpru";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.Sovomarbe-Delpru";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rup.pl7n5kbl00m;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -204,7 +360,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -267,7 +423,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";

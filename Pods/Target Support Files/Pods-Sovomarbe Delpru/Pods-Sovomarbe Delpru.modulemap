@@ -1,0 +1,6 @@
+framework module Pods_Sovomarbe_Delpru {
+  umbrella header "Pods-Sovomarbe Delpru-umbrella.h"
+
+  export *
+  module * { export * }
+}

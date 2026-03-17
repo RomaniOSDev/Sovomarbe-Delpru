@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74214FD12F64A36200338F5F /* PrivacyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74214FCD2F64A36200338F5F /* PrivacyWebView.swift */; };
+		74214FD22F64A36200338F5F /* StartMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74214FCF2F64A36200338F5F /* StartMainView.swift */; };
+		74214FD32F64A36200338F5F /* SaveService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74214FCE2F64A36200338F5F /* SaveService.swift */; };
+		74214FD42F64A36200338F5F /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74214FCC2F64A36200338F5F /* PersistenceManager.swift */; };
+		74214FD52F64A36200338F5F /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74214FCB2F64A36200338F5F /* AppRouter.swift */; };
 		748177EA2F5B1EB8008BA5CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 748177D42F5B1EB8008BA5CC /* Assets.xcassets */; };
 		748177EC2F5B1EB8008BA5CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 748177DC2F5B1EB8008BA5CC /* LaunchScreen.storyboard */; };
 		748177ED2F5B1EB8008BA5CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 748177DF2F5B1EB8008BA5CC /* Main.storyboard */; };
@@ -35,6 +40,11 @@
 		1374B8BCFEE5A53CCCAE39AD /* Pods_Sovomarbe_Delpru.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sovomarbe_Delpru.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		418D969D0CB588507AAA619A /* Pods-Sovomarbe Delpru.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sovomarbe Delpru.release.xcconfig"; path = "Target Support Files/Pods-Sovomarbe Delpru/Pods-Sovomarbe Delpru.release.xcconfig"; sourceTree = "<group>"; };
 		4A901C3D07537D51F963C6BC /* Pods-Sovomarbe Delpru.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sovomarbe Delpru.debug.xcconfig"; path = "Target Support Files/Pods-Sovomarbe Delpru/Pods-Sovomarbe Delpru.debug.xcconfig"; sourceTree = "<group>"; };
+		74214FCB2F64A36200338F5F /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		74214FCC2F64A36200338F5F /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		74214FCD2F64A36200338F5F /* PrivacyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyWebView.swift; sourceTree = "<group>"; };
+		74214FCE2F64A36200338F5F /* SaveService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveService.swift; sourceTree = "<group>"; };
+		74214FCF2F64A36200338F5F /* StartMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartMainView.swift; sourceTree = "<group>"; };
 		7481761F2F5A0F0B008BA5CC /* Sovomarbe Delpru.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sovomarbe Delpru.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		748177D02F5B1EB8008BA5CC /* AchievementsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsTabView.swift; sourceTree = "<group>"; };
 		748177D12F5B1EB8008BA5CC /* ActivitiesTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesTabView.swift; sourceTree = "<group>"; };
@@ -72,6 +82,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		74214FD02F64A36200338F5F /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				74214FCB2F64A36200338F5F /* AppRouter.swift */,
+				74214FCC2F64A36200338F5F /* PersistenceManager.swift */,
+				74214FCD2F64A36200338F5F /* PrivacyWebView.swift */,
+				74214FCE2F64A36200338F5F /* SaveService.swift */,
+				74214FCF2F64A36200338F5F /* StartMainView.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 		748176162F5A0F0B008BA5CC = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +138,7 @@
 				748177E62F5B1EB8008BA5CC /* TapMatchGameView.swift */,
 				748177E72F5B1EB8008BA5CC /* TapMatchViewModel.swift */,
 				748177E82F5B1EB8008BA5CC /* ViewController.swift */,
+				74214FD02F64A36200338F5F /* Router */,
 			);
 			path = "Sovomarbe Delpru";
 			sourceTree = "<group>";
@@ -247,6 +270,11 @@
 				748177F82F5B1EB8008BA5CC /* MainTabView.swift in Sources */,
 				748177F92F5B1EB8008BA5CC /* OnboardingView.swift in Sources */,
 				748177FA2F5B1EB8008BA5CC /* SceneDelegate.swift in Sources */,
+				74214FD12F64A36200338F5F /* PrivacyWebView.swift in Sources */,
+				74214FD22F64A36200338F5F /* StartMainView.swift in Sources */,
+				74214FD32F64A36200338F5F /* SaveService.swift in Sources */,
+				74214FD42F64A36200338F5F /* PersistenceManager.swift in Sources */,
+				74214FD52F64A36200338F5F /* AppRouter.swift in Sources */,
 				748177FB2F5B1EB8008BA5CC /* SettingsTabView.swift in Sources */,
 				748177FC2F5B1EB8008BA5CC /* SlidePuzzleGameView.swift in Sources */,
 				748177FD2F5B1EB8008BA5CC /* SlidePuzzleViewModel.swift in Sources */,
@@ -300,7 +328,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rup.qw2wq3q45;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -339,7 +367,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rup.qw2wq3q45;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
